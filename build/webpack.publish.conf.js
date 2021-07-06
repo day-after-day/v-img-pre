@@ -7,7 +7,7 @@ const utils = require('./utils')
 
 const webpackConfig = merge(baseWebpackConfig, {
     entry: {
-        'v-decimal': utils.resolve('src/directives/decimal/index.js'),
+        'v-img-pre': utils.resolve('src/directives/imgPre/index.js'),
     },
     output: {
         path: utils.resolve('lib'),          //打包后的文件存放的地方
